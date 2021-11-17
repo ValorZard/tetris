@@ -29,3 +29,13 @@ Musics are credited to:
 
 * License
 [[file:LICENSE.md][Attribution-NonCommercial-ShareAlike 4.0 International]]
+
+-------------
+Crud, so I didnt see the part about it being a noncommercial license. Ah well.
+
+TODO:
+- Add SRS rotation system (or some other rotation system, idk)
+- Add 7 bag randomization
+- Add scalibility, so that the board can rotate, shrink and grow, and you should still be able to play tetris regardless
+    - this will probably be done by removing references to Unity's own transform system, and make it so that everything takes place within the grid.
+- Also add a grace period at the top with a few invisible lines, so that theres more of a chance to survive if an piece spawns on top of a giant stack
