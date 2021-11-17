@@ -19,7 +19,7 @@ public class NextSpawner : MonoBehaviour {
         currentGroupId = spawner.nextId;
         // Debug.LogFormat("Object position: {0}", currentGroupObject.transform.position);
         // Debug.LogFormat("Center position: {0}", getBounds(currentGroupObject).center);
-        var group = (Group) currentGroupObject.GetComponent(typeof(Group));
+        var group = (BlockGroup) currentGroupObject.GetComponent(typeof(BlockGroup));
         // put the group align with its center
         group.AlignCenter();
         group.enabled = false;
